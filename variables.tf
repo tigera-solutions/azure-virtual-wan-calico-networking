@@ -5,7 +5,7 @@ variable "location" {
 
 variable "resource_group_name" {
   description = "The resource group name to be created"
-  default     = "sabo-vwan"
+  default     = "demo-virtual-wan"
 }
 
 variable "vwan_hub_address_space" {
