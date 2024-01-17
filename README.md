@@ -44,6 +44,7 @@ az group delete --resource-group <RESOURCE GROUP> --no-wait
 
 ## Reference
 
-Microsoft Virtual WAN documentation - [Configure BGP peering to an NVA](https://learn.microsoft.com/en-us/azure/virtual-wan/create-bgp-peering-hub-portal)
-Microsoft Virtual WAN documentation - [Configure Azure Firewall in a Virtual WAN hub](https://learn.microsoft.com/en-us/azure/virtual-wan/howto-firewall)
-Microsoft Build 2023 - [You really can manage ALL Microsoft Azure services and features with Terraform](https://www.youtube.com/watch?v=CTFyjN7zvHg)
+- Microsoft Virtual WAN documentation - [Configure BGP peering to an NVA](https://learn.microsoft.com/en-us/azure/virtual-wan/create-bgp-peering-hub-portal)
+- Microsoft Virtual WAN documentation - [Configure Azure Firewall in a Virtual WAN hub](https://learn.microsoft.com/en-us/azure/virtual-wan/howto-firewall)
+- Microsoft Virtual WAN documentation - [Virtual WAN routing deep dive](https://learn.microsoft.com/en-us/azure/virtual-wan/routing-deep-dive)
+- Microsoft Build 2023 - [You really can manage ALL Microsoft Azure services and features with Terraform](https://www.youtube.com/watch?v=CTFyjN7zvHg)
