@@ -96,7 +96,7 @@ resource "azapi_resource" "vhub-bgpconnection-1" {
       peerIp  = var.vwan_hub_bgpconnection_1_peer_ip
     }
   })
-  depends_on = [azapi_resource.vhub]
+  depends_on = [azapi_resource.vhub_connections]
 }
 
 resource "azapi_resource" "vhub-bgpconnection-2" {
@@ -112,7 +112,7 @@ resource "azapi_resource" "vhub-bgpconnection-2" {
       peerIp  = var.vwan_hub_bgpconnection_2_peer_ip
     }
   })
-  depends_on = [azapi_resource.vhub]
+  depends_on = [azapi_resource.vhub-bgpconnection-1]
 }
 
 resource "azurerm_virtual_network" "spoke_1_vnet" {
