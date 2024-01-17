@@ -21,7 +21,7 @@ kind: BGPPeer
 metadata:
   name: azure-virtual-hub-bgp-peer-1
 spec:
-  peerIP: 10.0.4.4
+  peerIP: 10.0.0.132
   reachableBy: 10.0.4.1
   asNumber: 65515
   keepOriginalNextHop: true
@@ -32,7 +32,7 @@ kind: BGPPeer
 metadata:
   name: azure-virtual-hub-bgp-peer-2
 spec:
-  peerIP: 10.0.4.4
+  peerIP: 10.0.0.133
   reachableBy: 10.0.4.1
   asNumber: 65515
   keepOriginalNextHop: true
